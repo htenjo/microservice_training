@@ -1,2 +1,8 @@
 .idea
-microservice_training.iml
+*.iml
+.classpath
+.factorypath
+.mvn/
+.project
+.settings/
+target/
