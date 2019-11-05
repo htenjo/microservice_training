@@ -26,7 +26,7 @@ I think it is easier to start working from a simple business case with our old f
 To evolve from monolith to microservices I created multiple folders numbered in the 
 sequence you need to follow, so just do it! ;-)
 
-If you already verified your requirements ([/00_requirements/README.md](https://github.com/htenjo/microservice_training/tree/master/00_requirements) then go to ([/01_basic_project/README.md](https://github.com/htenjo/microservice_training/tree/master/01_basic_project)  
+If you already verified your requirements ([00_requirements/README.md](https://github.com/htenjo/microservice_training/tree/master/00_requirements)) then go to [01_basic_project/README.md](https://github.com/htenjo/microservice_training/tree/master/01_basic_project). 
 
 ### What you have to work on?
 Some business case will be added soon.
