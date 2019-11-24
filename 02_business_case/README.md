@@ -37,20 +37,26 @@ Refer to the diagram below to look at UBER’s microservice architecture.
 - The units are individual separate deployable units performing separate functionalities.
 
 For Example: If you want to change anything in the billing Microservices, then you just have to deploy only billing Microservices and don’t have to deploy the others.
-
 - All the features were now scaled individually i.e. The interdependency between each and every feature was removed.
 
 For Example, we all know that the number of people searching for cabs is more comparatively more than the people actually booking a cab and making payments. This gets us an inference that the number of processes working on the passenger management microservice is more than the number of processes working on payments.
 
 In this way, UBER benefited by shifting its architecture from monolithic to Microservices.
 
-#### Next steps
+### How to continue?
+
+First, we need to establish some coding standards to warranty a minimum quality in our services.
+
+- Add basic coding standard tools ([03_code_standards](../03_code_standards))
+
 Now that we have a business context and understand the basics to move from a monolith to a microservice approach, lets start to implement the following microservices:
+
 - Passenger management ([04_passenger_management](../04_passenger_management))
 - Driver management ([05_drive_management](../05_driver_management))
 - Trip management ([06_trip_management](../06_trip_management))
 
 
+
 References:
 
- 1. This case study was taken from [Sahiti Kappagantula's Article](https://medium.com/edureka/microservice-architecture-5e7f056b90f1)
+ 1. This case study was taken from [Sahiti Kappagantula's Article](https://medium.com/edureka/microservice-architecture-5e7f056b90f1) and copied just the required fragments for this training.

@@ -1,6 +1,6 @@
 # Microservices Basic Training 01
 
-### Creating basic project
+### What do you need to get the base project?
 
 0. Create a SpringBoot project from [https://start.spring.io/](https://start.spring.io/) with the following requirements:
     - Project: Maven project
@@ -48,5 +48,5 @@
         curl -X GET http://localhost:8080/ -H 'Authorization: Basic dXNlcjoxYzAzMDFlMC1kZTQ1LTQ5ZmYtYWRjMy0wODc3YzRhZTRhMmE=' -H 'Host: localhost:8080'
       ```
       
-#### Next steps
+### How to continue?
 Now that you have a basic example project working, you can read the business case we are going to work on [02_business_case](../02_business_case).
