@@ -35,4 +35,5 @@ Below you can find the way to verify everything works as expected (through the c
     - Once in the Couchbase dashboard, you need to install the cluster (just use default values).
     - You can adjust hardware requirements to lower levels or event disable some features like analytics.
       
-  
+## How to continue?
+Now that you have installed the basic tools, you can create a basic project as explained in [01_basic_project](../01_basic_project).

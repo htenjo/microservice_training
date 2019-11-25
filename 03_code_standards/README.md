@@ -130,3 +130,5 @@ Congratulation, now you have a template project ready to be used in all your fut
 - To keep the focus on the business requirement you need to solve instead of losing time in configurations.
 
 Now you can go to [04_passenger_management](../04_passenger_management) and start to develop your first microservice.
+
+*Note: For small projects (3 to 5 microservices) having a base project could be enough for a while, but sooner or later changes on the base project will require a change management itself. Maven archetypes could help to solve this complexity.*
