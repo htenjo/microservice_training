@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
-
-  /**
-   * Some useful text for documentation.
-   *
-   * @return A parameter description.
-   */
-  @GetMapping
-  public String helloWorld() {
-    return "Hello world!!!";
-  }
+    
+    /**
+     * Some useful text for documentation.
+     *
+     * @return A parameter description.
+     */
+    @GetMapping
+    public String helloWorld() {
+        return "Hello world!!!";
+    }
 }

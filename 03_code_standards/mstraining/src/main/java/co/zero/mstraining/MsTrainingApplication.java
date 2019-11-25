@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class MsTrainingApplication {
-
-  /**
-   * Some useful text for documentation.
-   *
-   * @Param args Some desc
-   */
-  public static void main(String[] args) {
-    SpringApplication.run(MsTrainingApplication.class, args);
-  }
+    
+    /**
+     * Some useful text for documentation.
+     *
+     * @Param args Some desc
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(MsTrainingApplication.class, args);
+    }
 }

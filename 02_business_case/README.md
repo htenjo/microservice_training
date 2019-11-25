@@ -1,9 +1,7 @@
-# Microservices Basic Training 02
+# Microservices Basic Training - Case Study
+## Explore UBER’s Microservice Architecture<sup>1</sup>
 
-## Microservice Case Study:
-####Explore UBER’s Microservice Architecture<sup>1</sup>
-
-UBER’s Previous Architecture
+### UBER’s Previous Architecture
 
 Like many startups, UBER began its journey with a monolithic architecture built for a single offering in a single city. Having one codebase seemed cleaned at that time, and solved UBER’s core business problems. However, as UBER started expanding worldwide they rigorously faced various problems with respect to scalability and continuous integration.
 
@@ -18,14 +16,14 @@ The above diagram depicts UBER’s previous architecture.
 
 So, if you notice here all the features such as passenger management, billing, notification features, payments, trip management, and driver management were composed within a single framework.
 
-####Problem Statement
+### Problem Statement
 
 While UBER started expanding worldwide this kind of framework introduced various challenges. The following are some of the prominent challenges
 - All the features had to be re-built, deployed and tested again and again to update a single feature.
 - Fixing bugs became extremely difficult in a single repository as developers had to change the code again and again.
 - Scaling the features simultaneously with the introduction of new features worldwide was quite tough to be handled together.
 
-#### Solution
+### Solution
 
 To avoid such problems UBER decided to change its architecture and follow the other hyper-growth companies like Amazon, Netflix, Twitter and many others. Thus, UBER decided to break its monolithic architecture into multiple codebases to form a microservice architecture.
 
@@ -43,7 +41,7 @@ For Example, we all know that the number of people searching for cabs is more co
 
 In this way, UBER benefited by shifting its architecture from monolithic to Microservices.
 
-### How to continue?
+## How to continue?
 
 First, we need to establish some coding standards to warranty a minimum quality in our services.
 
@@ -55,8 +53,6 @@ Now that we have a business context and understand the basics to move from a mon
 - Driver management ([05_drive_management](../05_driver_management))
 - Trip management ([06_trip_management](../06_trip_management))
 
+<sub>*References*:</sub>
 
-
-References:
-
- 1. This case study was taken from [Sahiti Kappagantula's Article](https://medium.com/edureka/microservice-architecture-5e7f056b90f1) and copied just the required fragments for this training.
+<sub>*1. This case study was taken from [Sahiti Kappagantula's Article](https://medium.com/edureka/microservice-architecture-5e7f056b90f1) and copied just the required fragments for this training.*</sub>

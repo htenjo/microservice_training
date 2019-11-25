@@ -5,9 +5,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class MstrainingApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
+    
+    @Test
+    void contextLoads() {
+    }
 }

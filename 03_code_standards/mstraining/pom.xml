@@ -148,34 +148,31 @@
             <!-- Jacoco coverage plugin ends here -->
 
             <!-- checkstyle plugin starts here -->
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
-                <!--<version>${checkstyle.version}</version>-->
-                <!--<configuration>-->
-                    <!--&lt;!&ndash;-->
-                    <!--<configLocation>checkstyle.xml</configLocation>-->
-                    <!--&ndash;&gt;-->
-
-                    <!--<consoleOutput>true</consoleOutput>-->
-                    <!--<failsOnError>true</failsOnError>-->
-                    <!--<linkXRef>false</linkXRef>-->
-                    <!--<failOnViolation>true</failOnViolation>-->
-                    <!--<includeTestSourceDirectory>true</includeTestSourceDirectory>-->
-                    <!--<sourceDirectories>${project.basedir}/src/main/java</sourceDirectories>-->
-                    <!--<testSourceDirectories>${project.basedir}/src/test/java</testSourceDirectories>-->
-                    <!--<outputFile>${project.basedir}/target/checkstyle-output.xml</outputFile>-->
-                    <!--<violationSeverity>warning</violationSeverity>-->
-                <!--</configuration>-->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<phase>validate</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>check</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-            <!--</plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>${checkstyle.version}</version>
+                <configuration>
+                    <configLocation>config/ms_checkstyle.xml</configLocation>
+                    <consoleOutput>true</consoleOutput>
+                    <failsOnError>true</failsOnError>
+                    <linkXRef>false</linkXRef>
+                    <failOnViolation>true</failOnViolation>
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                    <sourceDirectories>${project.basedir}/src/main/java</sourceDirectories>
+                    <testSourceDirectories>${project.basedir}/src/test/java</testSourceDirectories>
+                    <outputFile>${project.basedir}/target/checkstyle-output.xml</outputFile>
+                    <violationSeverity>warning</violationSeverity>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <!-- checkstyle plugin ends here -->
         </plugins>
     </build>
