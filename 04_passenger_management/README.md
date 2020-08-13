@@ -21,3 +21,9 @@ Uber continue growing its business, for that reason the team needs the following
 
 ## How to continue?
 This was the first mircroservice in the system, now you are going to implement the second one [05_driver_management](../05_driver_management)
+
+
+
+
+#TO ADD:
+-  mvn archetype:generate -DgroupId=org.baeldung -DartifactId=parent-project
