@@ -17,7 +17,10 @@ Uber continue growing its business, for that reason the team needs the following
 - Add an API documentation tool like `swagger` to inform your clients (Mobile Devices, other microservices) the API behavior.
 - User asynchronous communication if possible.
 - The service will have a basic 3-layer architecture (Web, Service, Repository)
-- Use the project defined in [03_code_standards](../03_code_standards/mstraining) as the starting point.
+- If possible, use a reactive approach supported in a reactive framework like Spring Webflux.
+- When using distributed systems everything can fail, so handle errors properly.
+- Create the tests (unit, integration, functional, etc) you consider are enough to keep the health of the team.
+- If you want you can use the project defined in [03_code_standards](../03_code_standards/mstraining) as the starting point.
 
 ## How to continue?
 This was the first mircroservice in the system, now you are going to implement the second one [05_driver_management](../05_driver_management)
